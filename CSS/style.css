@@ -1,0 +1,131 @@
+.heading {
+    height: 25vh;
+    background-color: #0B2447;
+}
+
+.main-heading {
+    font-size: 5rem;
+    font-family: 'VT323', monospace;
+    padding-top: 5%;
+    font-weight: bold;
+    color: #A5D7E8;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main {
+    height: 75vh;
+    background-color: #F3F8FF;
+}
+
+h2.sub-heading {
+    font-size: 2rem;
+    line-height: 2;
+    font-family: monospace;
+    color: #0B2447;
+}
+
+h3.sub-heading {
+    font-size: 1.5rem;
+    font-family: monospace;
+    color: #0B2447;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 1%;
+    width: 50%;
+}
+
+.qs-mark {
+    width: 30%;
+    height: 100%;
+}
+
+.score {
+    margin-top: 5%;
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: #0B2447;
+}
+
+.option-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 1%;
+    background-color: #DEECFF;
+}
+
+.btn:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn img {
+    width: 50%;
+}
+
+.option {
+    font-size: 1.5rem;
+    font-family: 'VT323', monospace;
+    color: #0B2447;
+}
+
+.modal {
+    width: 40%;
+    height: 30%;
+    background-color: #1b4886;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    display: none;
+}
+
+.modal-heading {
+    font-size: 3.5rem;
+    font-family: 'VT323', monospace;
+    padding: 5% 0;
+    color: #A5D7E8;
+}
+
+.modal-btn {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+    padding: 3% 5%;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    background-color: #DEECFF;
+}
+
+.modal-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.main-temp {
+    position: relative;
+    z-index: -1;
+    opacity: 0.2;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <!-- Including Stylesheets -->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Including Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1 class="main-heading text-center">Rock Paper Scissors</h1>
+    </div>
+    <div class="main">
+        <h2 class="sub-heading text-center">Choose your weapon</h2>
+        <h3 class="sub-heading text-center">First to score 5 points wins the game</h3>
+        <div class="container">
+            <div class="sub-container">
+                <img class="qs-mark player" src="Images/qs-mark.png" alt="">
+                <h3 class="score">Player: <span class="player-score">0</span></h3>
+            </div>
+            <div class="sub-container">
+                <img class="qs-mark computer" src="Images/qs-mark.png" alt="">
+                <h3 class="score">Computer: <span class="computer-score">0</span></h3>
+            </div>
+        </div>
+        <div class="option-container">
+            <button class="btn rock-btn"><img src="Images/Rock.png" alt=""><div class="option">Rock</div></button>
+            <button class="btn paper-btn"><img src="Images/Paper.png" alt=""><div class="option">Paper</div></button>
+            <button class="btn scissors-btn"><img src="Images/Scissors.png" alt=""><div class="option">Scissors</div></button>
+        </div>
+    </div>
+    <!-- Modal for Game Over -->
+    <div class="modal">
+        <h3 class="modal-heading"></h3>
+        <button class="modal-btn"></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
